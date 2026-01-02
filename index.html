@@ -86,6 +86,22 @@ h1 { font-size: 34px; }
 .card { grid-column: span 12; }
 }  
 </style>
+/* Force centre navigation on mobile */
+@media (max-width: 768px) {
+  nav .wrap {
+    justify-content: center;
+  }
+
+  .links {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .links a {
+    display: inline-block;
+  }
+}
+
 </head>
 <body>
 
