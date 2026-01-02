@@ -21,8 +21,15 @@ nav .wrap { flex-wrap: wrap; }
 .links { justify-content: center; width: 100%; }
 .cta .btn { min-width: 160px; text-align: center; }
 @media (max-width: 520px) {
-  .cta { flex-direction: column; align-items: stretch; }
-  .cta .btn { width: 100%; }
+  .cta { 
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .cta .btn { 
+    width: 92%;
+    max-width: 360px;
+  }
 }
 body { margin:0; font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--b); }
 a { color:inherit; }
