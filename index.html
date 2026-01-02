@@ -92,6 +92,20 @@ footer { padding: 20px 0 40px; color: var(--g); }
 h1 { font-size: 34px; }
 .card { grid-column: span 12; }
 }  
+  /* Center nav links on desktop while keeping brand left */
+nav .wrap::after {
+  content: "";
+  flex: 1;
+}
+
+.brand {
+  flex: 1;
+}
+
+.links {
+  flex: 1;
+  justify-content: center;
+}
 </style>
 </head>
 <body>
